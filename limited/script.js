@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let d=+demand.value,r=+rarity.value;if(!d||!r){res.innerText='Enter values';return;}res.innerText=`Price: ${(d*r*10).toFixed(2)}`;}

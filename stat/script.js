@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let a=+atk.value,s=+speed.value;if(!a||!s){res.innerText='Enter values';return;}res.innerText=a>s?'Attack build':'Speed build';}

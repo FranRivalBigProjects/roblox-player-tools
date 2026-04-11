@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let c=+chance.value,t=+tries.value;if(!c||!t){res.innerText='Enter values';return;}let p=1-Math.pow(1-c/100,t);res.innerText=`Chance: ${(p*100).toFixed(2)}%`;}

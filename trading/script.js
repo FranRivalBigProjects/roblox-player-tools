@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let o=+offer.value,w=+want.value;if(!o||!w){res.innerText='Enter values';return;}res.innerText=o>=w?'Good trade':'Bad trade';}

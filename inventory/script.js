@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let i=+items.value,a=+avg.value;if(!i||!a){res.innerText='Enter values';return;}res.innerText=`Total: ${(i*a).toFixed(2)}`;}

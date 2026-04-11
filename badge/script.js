@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let c=+chance.value;if(!c){res.innerText='Enter value';return;}res.innerText=Math.random()<c/100?'Badge unlocked':'No badge';}

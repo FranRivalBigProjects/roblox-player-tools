@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let r=+robux.value;if(!r){res.innerText='Enter value';return;}res.innerText=`USD: $${(r/80).toFixed(2)}`;}
